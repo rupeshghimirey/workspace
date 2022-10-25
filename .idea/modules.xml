@@ -16,7 +16,6 @@
       <module fileurl="file://$PROJECT_DIR$/WhiteBoardModel/WhiteBoardModel.iml" filepath="$PROJECT_DIR$/WhiteBoardModel/WhiteBoardModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/WhiteBoardModule/WhiteBoardModule.iml" filepath="$PROJECT_DIR$/WhiteBoardModule/WhiteBoardModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZPracticeModel/ZPracticeModel.iml" filepath="$PROJECT_DIR$/ZPracticeModel/ZPracticeModel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-code-examples/java-code-examples.iml" filepath="$PROJECT_DIR$/java-code-examples/java-code-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/reviews/reviews.iml" filepath="$PROJECT_DIR$/reviews/reviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/workspace.iml" filepath="$PROJECT_DIR$/workspace.iml" />
     </modules>
