@@ -1,0 +1,148 @@
+@startuml
+
+/' diagram meta data start
+config=CallConfiguration;
+{
+  "rootMethod": "compositionExample.client.CompanyClient#main(String[])",
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": ""
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": false,
+    "cutEnum": true,
+    "cutTests": true,
+    "cutClient": true,
+    "cutDataAccess": true,
+    "cutInterfaceStructures": true,
+    "cutDataStructures": true,
+    "cutGetterAndSetter": true,
+    "cutConstructors": true
+  },
+  "graphTraversal": {
+    "forwardDepth": 3,
+    "backwardDepth": 3,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": true,
+    "hideInterfaceCalls": true, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false // root node is included
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showMethodParametersTypes": false,
+    "showMethodParametersNames": false,
+    "showMethodReturnType": false,
+    "showPackageLevels": 2,
+    "showCallOrder": false,
+    "edgeMode": "MethodsOnly", // TypesOnly, MethodsOnly, TypesAndMethods, MethodsAndDirectTypeUsage
+    "showDetailedClassStructure": false
+  },
+  "rootClass": "compositionExample.client.CompanyClient"
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="LR"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_1067076704 { 
+   	label=compositionExample
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   subgraph cluster_915263695 { 
+   	label=Company
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   Company1067076704XXXaddEmployee1258113742[
+	label="+ addEmployee()"
+	style=filled
+	fillcolor=white
+	tooltip="Company
+
+null"
+	fontcolor=darkgreen
+];
+
+Company1067076704XXXcomputeTotalSalaryOfAllEmployees0[
+	label="+ computeTotalSalaryOfAllEmployees()"
+	style=filled
+	fillcolor=white
+	tooltip="Company
+
+null"
+	fontcolor=darkgreen
+];
+} 
+} 
+
+subgraph cluster_1357712437 { 
+   	label=client
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   subgraph cluster_599832179 { 
+   	label=CompanyClient
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   CompanyClient581263079XXXmain1859653459[
+	label="+ main()"
+	style=filled
+	fillcolor=white
+	tooltip="CompanyClient
+
+null"
+	penwidth=4
+	fontcolor=darkgreen
+];
+} 
+} 
+
+'edges    
+CompanyClient581263079XXXmain1859653459 -> Company1067076704XXXaddEmployee1258113742;
+CompanyClient581263079XXXmain1859653459 -> Company1067076704XXXcomputeTotalSalaryOfAllEmployees0;
+    
+}
+@enduml
