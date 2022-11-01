@@ -12,10 +12,17 @@
       <module fileurl="file://$PROJECT_DIR$/Lab07.1/Lab07.1.iml" filepath="$PROJECT_DIR$/Lab07.1/Lab07.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab08.1/Lab08.1.iml" filepath="$PROJECT_DIR$/Lab08.1/Lab08.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab08.2/Lab08.2.iml" filepath="$PROJECT_DIR$/Lab08.2/Lab08.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab09.1/Lab09.1.iml" filepath="$PROJECT_DIR$/Lab09.1/Lab09.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab10.1/Lab10.1.iml" filepath="$PROJECT_DIR$/Lab10.1/Lab10.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab11.1/Lab11.1.iml" filepath="$PROJECT_DIR$/Lab11.1/Lab11.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab12.1/Lab12.1.iml" filepath="$PROJECT_DIR$/Lab12.1/Lab12.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/MiniLab05.1/MiniLab05.1.iml" filepath="$PROJECT_DIR$/MiniLab05.1/MiniLab05.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniLab08.1/MiniLab08.1.iml" filepath="$PROJECT_DIR$/MiniLab08.1/MiniLab08.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/WhiteBoardModel/WhiteBoardModel.iml" filepath="$PROJECT_DIR$/WhiteBoardModel/WhiteBoardModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/WhiteBoardModule/WhiteBoardModule.iml" filepath="$PROJECT_DIR$/WhiteBoardModule/WhiteBoardModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZPracticeModel/ZPracticeModel.iml" filepath="$PROJECT_DIR$/ZPracticeModel/ZPracticeModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-code-examples/java-code-examples.iml" filepath="$PROJECT_DIR$/java-code-examples/java-code-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../music-album/music-album.iml" filepath="$PROJECT_DIR$/../../../../../music-album/music-album.iml" />
       <module fileurl="file://$PROJECT_DIR$/reviews/reviews.iml" filepath="$PROJECT_DIR$/reviews/reviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/workspace.iml" filepath="$PROJECT_DIR$/workspace.iml" />
     </modules>

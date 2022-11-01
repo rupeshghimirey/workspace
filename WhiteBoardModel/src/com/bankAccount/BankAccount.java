@@ -88,12 +88,17 @@ public class BankAccount {
     }
 
     public void setCheckingBalance(double checkingBalance) {
-        if (checkingBalance < MINIMUM_BALANCE) {
-            System.out.printf("\nSorry! You must have a minimum balance of $%s! Please deposit higher amounts!\n", MINIMUM_BALANCE);
-        } else {
-            this.checkingBalance = checkingBalance;
+
+        try {
+            if (checkingBalance < MINIMUM_BALANCE) {
+                throw new MinimumBalanceException("\nSorry! You must have a minimum balance of $"+ MINIMUM_BALANCE +"! Please deposit higher amounts!");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+        this.checkingBalance = checkingBalance;
     }
+
 
     public double getSavingBalance() {
         return savingBalance;

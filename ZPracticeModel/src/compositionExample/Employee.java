@@ -1,5 +1,7 @@
 package compositionExample;
 
+import java.time.LocalDate;
+
 public class Employee {
 
     private String name;
@@ -13,6 +15,10 @@ public class Employee {
         setSalary(salary);
         setAddress(address);
     }
+
+    public Employee(String rupesh, LocalDate of) {
+    }
+
     // business logics
     public String getEmployeeInfo() {
         return "Employee Info\n" + "Name: " + getName() +"\n" + "Salary: $"+getSalary()+"\n"+"Address: " + getAddress().getAddressInfo();

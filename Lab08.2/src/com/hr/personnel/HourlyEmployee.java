@@ -16,6 +16,13 @@ public class HourlyEmployee extends Employee{
         setHours(hours);
     }
 
+    //business methods
+
+    @Override
+    public void pay() {
+        System.out.printf(getName() + " is paid weekly of $" + getRate()*getHours() + "\n");
+    }
+
 
     // accessors
     public double getRate() {
@@ -36,6 +43,6 @@ public class HourlyEmployee extends Employee{
 
     // toString
     public String toString() {
-        return "Department: name=" + getName() + " Hired Date: "+ getHireDate() + " Weekly Wage: $" + getRate() * hours;
+        return super.toString() +  " Weekly Wage: $" + getRate() * hours;
     }
 }
