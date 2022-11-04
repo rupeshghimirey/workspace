@@ -1,5 +1,8 @@
 package vehicle;
 
+// chnages by other
+// changes by other
+// chnages by other
 public class Bike extends Vehicle{
 
     public Bike(String vin) {
@@ -11,6 +14,4 @@ public class Bike extends Vehicle{
         System.out.println("Moving with a bike way to " + location);
     }
 }
-
-
 
