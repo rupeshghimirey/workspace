@@ -2,6 +2,7 @@ package vehicle;
 
 // I am rupesh's collaborating developer
 // added some logics
+// made some changes
 public class Bike extends Vehicle{
 
 
