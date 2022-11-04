@@ -1,8 +1,5 @@
 package vehicle;
 
-// Collab changes
-// Collab changes
-// Collab changes
 public class Bike extends Vehicle{
 
     public Bike(String vin) {
