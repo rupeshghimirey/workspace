@@ -5,7 +5,6 @@ package vehicle;
 // made some changes
 public class Bike extends Vehicle{
 
-  // Rupesh is also making some changes
     public Bike(String vin) {
         super(vin);
     }
@@ -16,4 +15,4 @@ public class Bike extends Vehicle{
     }
 }
 
-// changes done
+
