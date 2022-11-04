@@ -3,6 +3,7 @@ package vehicle;
 // I am rupesh's collaborating developer
 // added some logics
 // made some changes
+// another changes made by collaborator
 public class Bike extends Vehicle{
 
     public Bike(String vin) {
