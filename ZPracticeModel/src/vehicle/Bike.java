@@ -1,9 +1,7 @@
 package vehicle;
 
-// I am rupesh's collaborating developer
-// added some logics
-// made some changes
-// another changes made by collaborator
+// this is the changes made by somoone else
+// Someone else change the business logics
 public class Bike extends Vehicle{
 
     public Bike(String vin) {
@@ -15,5 +13,6 @@ public class Bike extends Vehicle{
         System.out.println("Moving with a bike way to " + location);
     }
 }
+// someone else changes done
 
 
