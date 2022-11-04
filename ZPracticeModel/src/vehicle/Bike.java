@@ -11,6 +11,3 @@ public class Bike extends Vehicle{
         System.out.println("Moving with a bike way to " + location);
     }
 }
-
-
-
