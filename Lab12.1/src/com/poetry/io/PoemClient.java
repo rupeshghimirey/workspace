@@ -59,6 +59,7 @@ public class PoemClient {
      */
     private static void writePoem() {
         // TODO
+//        PrintWriter writer = null;
         try(PrintWriter writer = new PrintWriter( new BufferedWriter(new FileWriter("Lab12.1/haiku.txt")))) {
             writer.println("Here we go again.");
             writer.println("Good things are coming our way.");
